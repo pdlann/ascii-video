@@ -24,7 +24,7 @@ def convert_frame(frame, width=100):
         output += "\033[0m\n"
     return output
 
-file_path = "video.mp4"
+file_path = "video.mp4" #taruh file video jdi 1 folder sama py nya, nanti dimasukin ke sini
 cap = cv2.VideoCapture(file_path)
 player = MediaPlayer(file_path)
 
